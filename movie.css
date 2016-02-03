@@ -3,3 +3,28 @@
 	Authors: Kyler Collins, Justin Lennox, Neal Raines, Neal Thacker
 	Description: Contains the formatting for tmnt.html. 
  */
+body 
+{
+	background-image: url("rancidbannerbg.png"), url(moviebg.png);
+	background-position: center top, center center;
+	background-repeat: repeat-x, repeat;
+}
+
+#banner 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+h1 
+{
+	font-size: 24pt;
+	font-family: Verdana, Helvetica, sans-serif;
+	text-align: center;
+	text-shadow: 3px 3px #999999;
+	margin-top: 70px;
+}
