@@ -28,3 +28,12 @@ h1
 	text-shadow: 3px 3px #999999;
 	margin-top: 70px;
 }
+
+.center
+{
+	position: relative;
+	margin: auto;
+	width: 800px;
+	border: 4px solid #808080; 
+	display: flex;
+}
