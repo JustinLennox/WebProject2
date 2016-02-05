@@ -49,3 +49,12 @@ h1
 	position: inherit;
 	width: 550px;
 }
+
+dt
+{
+	font-weight: bold;
+}
+
+ul
+{
+	list-style-type: none;
