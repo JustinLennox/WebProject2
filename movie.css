@@ -5,7 +5,7 @@
  */
 body 
 {
-	background-image: url("rancidbannerbg.png"), url(moviebg.png);
+	background-image: url("rancidbannerbg.png"), url("moviebg.png");
 	background-position: center top, center center;
 	background-repeat: repeat-x, repeat;
 }
@@ -31,33 +31,93 @@ h1
 
 .center
 {
-	position: relative;
-	margin: auto;
+    position: relative;
+    display: flex;
+    margin:auto;
 	width: 800px;
-	border: 4px solid #808080; 
-	display: flex;
-}
-
-.right
-{
-	position: relative;
-	width: 250px;
+	border: 4px solid #808080;
 }
 
 .left
 {
-	position: inherit;
-	-webkit-column-count: 2;
-    -moz-column-count: 2;
-	column-count: 2;
+    display: inline-block;
 	width: 550px;
-	background-image: url("rottenlargebg.png");
-	background-repeat: repeat-x;
+}
+
+#overall{
+    width: 550px;
+    height: 83px;
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    background-image: url("rottenlargebg.png");
+    background-repeat: repeat-x;
+}
+
+#reviewColumns{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 47%; /* Chrome, Safari, Opera */
+    -moz-column-width: 47%; /* Firefox */
+    column-width: 47%;
+    padding: 2%;
+}
+
+.review > p:first-child{
+    border: solid gray 2px;
+    font-size: 8pt;
+    top:0px;
+    background-color: #E8DC9B;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.review > p:nth-child(2){
+    display: inline-block;
+    vertical-align: top;
+}
+
+.publisher {
+    display: inline-block;
+}
+
+.publisher > img {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.publisher > p {
+    display: inline-block;
+}
+
+.reviewer{
+    margin: 0;
+}
+
+.right
+{
+    display: inline-block;
+    width: 250px;
+    background-color: #A2B964;
+    vertical-align: top;
+}
+
+dl{
+    padding: 10px;
+    font-family: Arial, san-serif;
+    font-size: 8pt;
+}
+
+#bottomBar{
+    display: inline;
+    background-color: #A2B964;
 }
 
 dt
 {
 	font-weight: bold;
+    margin-top: 10px;
 }
 
 ul
@@ -67,7 +127,15 @@ ul
 
 .percent
 {
+    vertical-align: top;
     color: red;
+    display: inline-block;
+    height: 100%;
 	font-weight: bold;
 	font-size: 48pt;
+}
+
+#validators{
+    position: absolute;
+    right: 0px;
 }
