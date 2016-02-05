@@ -47,7 +47,12 @@ h1
 .left
 {
 	position: inherit;
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+	column-count: 2;
 	width: 550px;
+	background-image: url("rottenlargebg.png");
+	background-repeat: repeat-x;
 }
 
 dt
@@ -58,3 +63,11 @@ dt
 ul
 {
 	list-style-type: none;
+}
+
+.percent
+{
+    color: red;
+	font-weight: bold;
+	font-size: 48pt;
+}
