@@ -141,6 +141,11 @@ ul
 	font-size: 48pt;
 }
 
+#smallPercent{
+    color: white;
+    font-size: 8pt;
+}
+
 .bottom {
 	text-align: center;
 	position: absolute;
