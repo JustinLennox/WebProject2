@@ -149,7 +149,16 @@ ul
 	background-color: #A2B964;
 }
 
-#validators{
+.validators{
     position: absolute;
     right: 0px;
 }
+
+.validators > a{
+    opacity: 0.5;
+}
+
+.validators > a:hover{
+    opacity: 1.0;
+}
+
