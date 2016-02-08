@@ -33,7 +33,7 @@ h1
 {
     position: relative;
     display: flex;
-    margin:auto;
+    margin: auto;
     border-radius: 20px;
     overflow: hidden;
 	width: 800px;
@@ -150,8 +150,8 @@ ul
 	text-align: center;
 	position: absolute;
 	bottom: 0;
-        width: 120%;
-        margin-left: -20px;
+    width: 120%;
+    margin-left: -20px;
 	background-color: #A2B964;
 }
 
@@ -167,4 +167,3 @@ ul
 .validators > a:hover{
     opacity: 1.0;
 }
-
